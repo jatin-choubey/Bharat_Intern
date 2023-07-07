@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Personal Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+<div id ="header">
+  <div class="container">
+    <nav>
+      <img src="img/logo_12.webp" class="logo" alt="">
+      <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#Project">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fa fa-times" aria-hidden="true" onclick="closeMenu()"></i>
+
+      </ul>
+      <i class="fa fa-bars" aria-hidden="true" onclick="openMenu()"></i>
+    </nav>
+<div class="header-text">
+  <p>Software Developer</p>
+  <h1>Hi, I'm <span> Jatin Prakash Choubey</span> <br> From India</h1>
+
+</div>
+  </div>
+
+</div>
+<!---about------------>
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="img/user.jpg" alt="">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>I am a fourth-year engineering student pursuing a Bachelor of Technology in Information Technology at Bharati Vidyapeeth (Deemed to be University) College of Engineering, Pune. I have maintained an impressive average of 9.008 CGPA (*till Sem 6).</p>
+    <div class="tab-titles">
+      <p class="tab-links active-link" onClick="opentab('skills')">Skills</p>
+      <p class="tab-links" onClick="opentab('Projects')">Projects</p>
+      <p class="tab-links" onClick="opentab('education')">Education</p>
+    </div>
+    <div class="tab-contents active-tab" id="skills">
+<ul>
+  <li> <span>PROGRAMMING &nbsp LANGUAGES</span> <br> C <br>C++ <br>Java <br> Python </li>
+  <li> <span>WEB  &nbspTECHNOLOGY</span> <br> HTML <br>CSS <br>JavaScript </li>
+  <li> <span>WEB &nbsp DEV &nbsp FRAMEWORKS</span> <br> ReactJS <br>Node.js<br>Express.js  </li>
+  <li> <span>DATABASE</span> <br> MongoDB </li>
+  <li> <span>FILE &nbsp HANDLING</span> <br> File Handling</li>
+  <li> <span>BLOCKCHAIN</span> <br> Solidity <br>Smart Contracts <br> Ethers.js <br>Hardhat <br>Ganache </li>
+  
+
+
+</ul>
+    </div>
+
+    <div class="tab-contents" id="Projects">
+<ul>
+  <li> <span>Coin Raise</span> <br> Solidity <br>JavaScript</li>
+  <li> <span>Algo Visualizer</span> <br> ReactJS <br>Data Algorithms</li>
+  <li> <span>Shell Code</span> <br> C++ <br>File Handling</li>
+  <li> <span>Crypto Guru</span> <br> ReactJS </li>
+
+
+
+</ul>
+    </div>
+    <div class="tab-contents" id="education">
+<ul>
+  <li> <span>2020-2024</span> <br> BHARTI VIDYAPEETH COLLEGE OF ENGINEERINF,PUNE <br>INFORMATION TECHNOLOGY </li>
+
+
+</ul>
+    </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!---Project------------>
+<div id="Project">
+  <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="img/work2.jpg">
+          <div class="layer">
+            <h2>Coin Raise </h2>
+            <p>Coin Raise is a crypto-based crowdfunding application that allows its deployer to raise funds on various blockchain networks.</p>
+            <a href="https://github.com/jatin-choubey/Hardhat-Crypto-CrowdFunding"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+
+          </div>
+          </div>
+        <div class="work">
+          <img src="img/work1.png">
+          <div class="layer">
+            <h2>Algorithm Visualizer</h2>
+            <p>Explore the fascinating world of algorithms through interactive visualizations. Understand complex data structures and algorithms with ease and enhance your programming skills.</p>
+            <a href="https://github.com/jatin-choubey/Visualize/tree/master"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+
+          </div>
+          </div>
+
+          <div class="work">
+            <img src="img/work4.png">
+            <div class="layer">
+            <br>
+            <h2>Shell Code</h2>
+            <p>J_Shell is a command line shell that typically runs in a text window and causes action when recieves a command</p>
+            <a href="https://github.com/jatin-choubey/J_Shell"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+          </div>
+          </div>
+          
+            <div class="work">
+              <img src="img/work3.png">
+              <div class="layer">
+                <br>
+                <h2>Crypto Guru</h2>
+                <p>Your comprehensive crypto market cap and price tracker. Stay informed with real-time data, track your favorite cryptocurrencies, and make smarter investment decisions.</p>
+                <a href="https://github.com/jatin-choubey/Crypto-Guru"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+
+              </div>
+              </div>
+
+      </div>
+  </div>
+</div>
+<!---contact----------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p> <i class="fa fa-paper-plane" aria-hidden="true"></i> jatinchoubey29@gmail.com</p>
+        <p> <i class="fa fa-phone-square" aria-hidden="true"></i> +91 9264989187</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/jatin-choubey-053573183/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+          <a href="https://github.com/jatin-choubey"><i class="fa fa-github" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/jatinpc_1912/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://mail.google.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+
+
+        </div>
+        <a href="img/Resume.pdf" Download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet" >
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2" name="Submit">Submit</button>
+
+        </form>
+        <span id="msg"></span>
+
+      </div>
+
+    </div>
+
+  </div>
+<div class="copyright">
+  <p>copyright © Made by Jatin Prakash Choubey</p>
+
+</div>
+</div>
+<script>
+var tablinks=document.getElementsByClassName("tab-links");
+var tabcontents=document.getElementsByClassName("tab-contents");
+function opentab(tabname) {
+  for(tablink of tablinks){
+    tablink.classList.remove("active-link");
+  }
+  for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+  }
+  event.currentTarget.classList.add("active-link");
+  document.getElementById(tabname).classList.add("active-tab")
+
+}
+
+</script>
+<script>
+var sidemenu=document.getElementById("sidemenu");
+function openMenu() {
+  sidemenu.style.right="0";
+}
+function closeMenu() {
+  sidemenu.style.right="-250px";
+}
+
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzsBiZdcCSOamBjmNNyGOFWwrqGSTUvcgY2Mzf2cRNphhq3_lSMAmPU6Cl66srw-wDH/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg= document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="✅ Message sent Sucessfully"
+        setTimeout(function () {
+          msg.innerHTML=""
+
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+  </body>
+</html>
